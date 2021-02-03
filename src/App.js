@@ -9,9 +9,11 @@ function App() {
     <img src={Eshop} />
     <img src="huawei.jpg" />
   </div>
-  <video width={320} height={240} controls>
+  {/* <video width={320} height={240} controls>
     <source src="myVideo.mp4" type="video/mp4" />
-  </video>
+  </video> */}
+
+<iframe width="853" height="480" src="https://www.youtube.com/embed/n-BXNXvTvV4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
   );
 }
